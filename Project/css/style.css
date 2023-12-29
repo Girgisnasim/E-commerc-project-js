@@ -1,0 +1,90 @@
+/* navBar */
+*{
+    scroll-behavior: smooth;
+    box-sizing: content-box;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    color:rgb(255, 255, 255);
+    background-color: rgb(80, 8, 128);
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+}
+.navDiv1{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.navDiv2{
+    width: 40%;
+    padding-left: 20%; 
+}
+.navDiv2 a{
+   text-decoration: none;
+   background-color:white;
+   color:black;
+   padding: 10px;
+   border-radius:10px;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   -ms-border-radius:10px;
+   -o-border-radius:10px;
+}
+#counterCard{
+    border-radius: 60%;
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
+    background-color:white;
+    color:black;
+    font-size: large;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:#ffd700;
+
+}
+/* footer */
+footer{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(80, 8, 128);
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    width: 100%;
+    margin-bottom: 0;
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;  
+    padding:10px;
+}
+.pfooter{
+    display: flex;
+    justify-content: center;
+}
+.created{
+    color: rgb(221, 10, 116);
+}
+.copyright{
+    margin-right: 20px;
+    float: right;
+}
+footer i{
+    background-color:black;
+}
+
+button:hover {
+    background-color:fuchsia;
+    color: white;
+}
